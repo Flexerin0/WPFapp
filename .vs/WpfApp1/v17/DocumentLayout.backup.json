@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\formcatalogemployes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\formcatalogemployes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\formcatalogemployes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\formcatalogemployes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\formconnection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\formconnection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\models\\employeeimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\employeeimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\formconnection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\formconnection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\services\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\services\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\wpfapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\formmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\formmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\formcatalogproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\formcatalogproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\formmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\formmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|d:\\\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\wpfapp1\\wpfapp1\\formcatalogproducts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7A360F-2704-410C-AFC4-89B05BACBF50}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\formcatalogproducts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormCatalogEmployes.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormCatalogEmployes.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\FormCatalogEmployes.xaml.cs",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormCatalogEmployes.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\FormCatalogEmployes.xaml.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAwwAsBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:06:54.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormCatalogEmployes.xaml",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormCatalogEmployes.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\FormCatalogEmployes.xaml",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormCatalogEmployes.xaml",
+              "RelativeToolTip": "WpfApp1\\FormCatalogEmployes.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T12:13:23.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormConnection.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormConnection.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\FormConnection.xaml.cs",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormConnection.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\FormConnection.xaml.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAqwNgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T21:25:13.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeImage.cs",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\Models\\EmployeeImage.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\EmployeeImage.cs",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\Models\\EmployeeImage.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\EmployeeImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T11:35:12.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml.cs",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\App.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:09:37.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormConnection.xaml",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormConnection.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\FormConnection.xaml",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormConnection.xaml",
+              "RelativeToolTip": "WpfApp1\\FormConnection.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-25T22:10:37.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\Employee.cs",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\Models\\Employee.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\Employee.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAxwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:00:39.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WpfApp1",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-26T11:20:59.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\Services\\SettingsService.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Services\\SettingsService.cs",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\Services\\SettingsService.cs",
+              "RelativeToolTip": "WpfApp1\\Services\\SettingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T11:39:05.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserSettings.cs",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\Services\\UserSettings.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Services\\UserSettings.cs",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\Services\\UserSettings.cs",
+              "RelativeToolTip": "WpfApp1\\Services\\UserSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T11:38:34.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormMain.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormMain.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\FormMain.xaml.cs",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormMain.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\FormMain.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T22:07:34.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WpfApp1.csproj",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-26T11:20:42.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormCatalogProducts.xaml",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormCatalogProducts.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\FormCatalogProducts.xaml",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormCatalogProducts.xaml",
+              "RelativeToolTip": "WpfApp1\\FormCatalogProducts.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-13T12:22:03.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormMain.xaml",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormMain.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\FormMain.xaml",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormMain.xaml",
+              "RelativeToolTip": "WpfApp1\\FormMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-25T21:53:38.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\App.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\App.xaml",
+              "RelativeToolTip": "WpfApp1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-25T21:26:09.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormCatalogProducts.xaml.cs",
+              "DocumentMoniker": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormCatalogProducts.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\FormCatalogProducts.xaml.cs",
+              "ToolTip": "D:\\\u041F\u041E\u0421\u041B\u0415\u0414\u041D\u0418\u0419 \u0421\u0415\u041C\u0415\u0421\u0422\u0420\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B \u0431\u0430\u0437 \u0434\u0430\u043D\u043D\u044B\u0445\\WpfApp1\\WpfApp1\\FormCatalogProducts.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\FormCatalogProducts.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAtwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T21:15:38.636Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
