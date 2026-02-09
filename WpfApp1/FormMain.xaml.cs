@@ -46,5 +46,10 @@ namespace WpfApp1
                 cbDirectories.SelectedIndex = -1; // сброс выбора
             }
         }
+
+        private void BtnExit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

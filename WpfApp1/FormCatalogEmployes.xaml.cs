@@ -295,6 +295,13 @@ namespace WpfApp1
         private void BtnImgDelete_Click(object sender, RoutedEventArgs e)
         {
             if (seletImg == 0) return;
+            if (IBoxEmployees.SelectedItem is not DataRowView row) return;
+
+            if (row["Id"] == DBNull.Value)
+            {
+                MessageBox.Show("Сначала сохраните сотрудника в базе данных, затем можно добавлять изображения.");
+                return;
+            }
 
             var img = employeesImagesList[seletImg - 1];
 

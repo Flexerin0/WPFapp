@@ -8,7 +8,12 @@
         ResizeMode="NoResize"
         Title="FormMain" Height="450" Width="800">
     <Grid>
-        <Canvas Margin="0,0,10,414" Height="20" Background="#FFCECECE"/>
+        <Canvas Margin="0,0,10,414" Height="20" Background="#FFCECECE">
+            <Button Content="Выход"
+                Width="70"
+                Height="20"
+                Click="BtnExit_Click" Canvas.Left="720" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        </Canvas>
         <ComboBox x:Name="cbDirectories" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="20" SelectionChanged="Directories_SelectionChanged">
             <ComboBoxItem Content="Сотрудники"/>
             <ComboBoxItem Content="Клиенты"/>

@@ -8,25 +8,27 @@
         ResizeMode="NoResize"
         Title="FormCatalogProducts" Height="470" Width="815">
     <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
-        <Button Content="Редактировать" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="30" Width="370" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
-        <Button Content="Добавить" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
-        <Button Content="Удалить" HorizontalAlignment="Left" Margin="590,10,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Margin="110,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Background="#FF68ADFF" Height="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="110,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Background="#FF68ADFF" Height="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="110,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Background="#FF68ADFF" Height="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="124,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86" Background="#FF68ADFF" Height="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="110,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Background="#FF68ADFF" Height="20"/>
+        <Button Click="BtnUpdate_Click" Content="Редактировать" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="30" Width="370" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
+        <Button Click="BtnAdd_Click" Content="Добавить" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
+        <Button Click="BtnDelete_Click" Content="Удалить" HorizontalAlignment="Left" Margin="590,10,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
+        <TextBox x:Name="tBoxId" HorizontalAlignment="Left" Margin="110,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Background="#FF68ADFF" Height="20"/>
+        <TextBox x:Name="tBoxName" HorizontalAlignment="Left" Margin="110,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Background="#FF68ADFF" Height="20"/>
+        <TextBox x:Name="tBoxBarcode" HorizontalAlignment="Left" Margin="110,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Background="#FF68ADFF" Height="20"/>
+        <TextBox x:Name="tBoxPurchasePrice" HorizontalAlignment="Left" Margin="124,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86" Background="#FF68ADFF" Height="20"/>
+        <TextBox x:Name="tBoxPrice" HorizontalAlignment="Left" Margin="110,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Background="#FF68ADFF" Height="20"/>
         <Label Content="Id" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Label Content="Название" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Label Content="Штрих код" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Label Content="Цена закупки" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
-        <Label Content="Стоимость" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Стоимость" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Label Content="Описание" HorizontalAlignment="Left" Margin="218,90,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
-        <TextBox HorizontalAlignment="Left" Margin="300,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="490" Background="#FF68ADFF" Height="115"/>
-        <Button Content="Сохранить и выйти" HorizontalAlignment="Left" Margin="10,394,0,0" VerticalAlignment="Top" Height="30" Width="370" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
-        <Button Content="Применить" HorizontalAlignment="Left" Margin="385,394,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
-        <Button Content="Выход" HorizontalAlignment="Left" Margin="590,394,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,175,10,45" Background="#FF68ADFF" SelectionChanged="ListBox_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+        <TextBox x:Name="tBoxDescription" HorizontalAlignment="Left" Margin="300,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="490" Background="#FF68ADFF" Height="115"/>
+        <Button Click="BtnSave_Click" Content="Применить" HorizontalAlignment="Left" Margin="10,394,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
+        <Button Click="BtnExit_Click" Content="Выход" HorizontalAlignment="Left" Margin="590,394,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
+        <ListBox DisplayMemberPath="Name" x:Name="IBoxProducts" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,203,10,45" Background="#FF68ADFF" SelectionChanged="ListBox_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+        <ComboBox x:Name="ComboBoxCategory" HorizontalAlignment="Left" Margin="110,146,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Категория" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Button Click="BtnCategories_Click" Content="Категории" HorizontalAlignment="Left" Margin="300,394,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
 
     </Grid>
 </Window>

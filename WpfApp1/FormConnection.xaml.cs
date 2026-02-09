@@ -128,9 +128,10 @@ namespace WpfApp1
                     CREATE TABLE Products (
                         Id INT IDENTITY PRIMARY KEY,
                         Name NVARCHAR(200) NOT NULL,
-                        Price DECIMAL(10,2) NOT NULL,
-                        CategoryId INT,
-                        QuantityInStock INT DEFAULT 0,
+                        Barcode NVARCHAR(100) UNIQUE,
+                        PurchasePrice DECIMAL(10,2) NOT NULL,
+                        CategoryId INT NOT NULL,
+                        SellingPrice DECIMAL(10,2) NOT NULL,
                         Description NVARCHAR(1000),
                         FOREIGN KEY (CategoryId) REFERENCES ProductCategory(Id)
                     );
@@ -193,6 +194,14 @@ namespace WpfApp1
                         FOREIGN KEY (ProductId) REFERENCES Products(Id),
                         FOREIGN KEY (ClientId) REFERENCES Clients(Id)
                     );
+
+                    CREATE TABLE EmployeeImages
+                    (
+                        Id INT IDENTITY PRIMARY KEY,
+                        EmployeeId INT NOT NULL,
+                        ImageData VARBINARY(MAX) NOT NULL,
+                        FOREIGN KEY (EmployeeId) REFERENCES Employees(Id) ON DELETE CASCADE
+                    );
                     ";
 
                     SqlCommand cmd = new SqlCommand(command, db);
@@ -230,6 +239,9 @@ namespace WpfApp1
 
             string login = tBoxLogin.Text;
             string password = tBoxPassword.Text;
+
+            cs = $"Data Source={cBoxServer.Text};Initial Catalog=FlexClub;User ID={login};Password={password};TrustServerCertificate=True;";
+            App.ConnectionString = cs;
 
             try
             {

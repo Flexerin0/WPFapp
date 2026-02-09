@@ -8,6 +8,9 @@
     <Compile Update="FormConnection.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="FormCreateCategories.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="FormMain.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
