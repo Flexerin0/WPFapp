@@ -35,11 +35,14 @@ namespace WpfApp1
                         break;
 
                     case "Клиенты":
-                        new FormMain().Show();
+                        new FormCatalogClients().Show();
                         break;
 
                     case "Товары":
                         new FormCatalogProducts().Show();
+                        break;
+                    case "Поставщики":
+                        new FormCatalogSuppliers().Show();
                         break;
                 }
 

@@ -25,7 +25,7 @@
         <TextBox x:Name="tBoxDescription" HorizontalAlignment="Left" Margin="300,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="490" Background="#FF68ADFF" Height="115"/>
         <Button Click="BtnSave_Click" Content="Применить" HorizontalAlignment="Left" Margin="10,394,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
         <Button Click="BtnExit_Click" Content="Выход" HorizontalAlignment="Left" Margin="590,394,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
-        <ListBox DisplayMemberPath="Name" x:Name="IBoxProducts" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,203,10,45" Background="#FF68ADFF" SelectionChanged="ListBox_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+        <ListBox DisplayMemberPath="FullName" x:Name="IBoxProducts" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,203,10,45" Background="#FF68ADFF" SelectionChanged="ListBox_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
         <ComboBox x:Name="ComboBoxCategory" HorizontalAlignment="Left" Margin="110,146,0,0" VerticalAlignment="Top" Width="100"/>
         <Label Content="Категория" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Button Click="BtnCategories_Click" Content="Категории" HorizontalAlignment="Left" Margin="300,394,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>

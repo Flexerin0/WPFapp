@@ -18,6 +18,7 @@
             <ComboBoxItem Content="Сотрудники"/>
             <ComboBoxItem Content="Клиенты"/>
             <ComboBoxItem Content="Товары"/>
+            <ComboBoxItem Content="Поставщики"/>
         </ComboBox>
 
     </Grid>
