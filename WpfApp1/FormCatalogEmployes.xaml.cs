@@ -61,7 +61,7 @@ namespace WpfApp1
                 row["SName"] = fio.Length > 1 ? fio[1] : "";
                 row["Patronomic"] = fio.Length > 2 ? fio[2] : "";
                 row["Login"] = tBoxLogin.Text;
-                row["Password"] = tBoxPassword.Text;
+                row["Password"] = PasswordHelper.HashPassword(tBoxPassword.Text);
                 row["BirthDate"] = dpBirthDate.SelectedDate ?? DateTime.Now;
                 row["Phone"] = tBoxPhone.Text;
                 row["Email"] = tBoxEmail.Text;
@@ -85,7 +85,7 @@ namespace WpfApp1
                 tBoxId.Text = row["Id"].ToString();
                 tBoxFio.Text = $"{row["Name"]} {row["SName"]} {row["Patronomic"]}";
                 tBoxLogin.Text = row["Login"].ToString();
-                tBoxPassword.Text = row["Password"].ToString();
+                tBoxPassword.Text = "";
                 dpBirthDate.SelectedDate = Convert.ToDateTime(row["BirthDate"]);
                 tBoxPhone.Text = row["Phone"].ToString();
                 tBoxEmail.Text = row["Email"].ToString();
@@ -143,7 +143,7 @@ namespace WpfApp1
                 row["SName"] = fio.Length > 1 ? fio[1] : "";
                 row["Patronomic"] = fio.Length > 2 ? fio[2] : "";
                 row["Login"] = tBoxLogin.Text;
-                row["Password"] = tBoxPassword.Text;
+                row["Password"] = PasswordHelper.HashPassword(tBoxPassword.Text);
                 row["BirthDate"] = dpBirthDate.SelectedDate ?? DateTime.Now;
                 row["Phone"] = tBoxPhone.Text;
                 row["Email"] = tBoxEmail.Text;

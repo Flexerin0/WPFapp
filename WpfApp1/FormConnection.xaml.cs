@@ -50,7 +50,7 @@ namespace WpfApp1
             btnCreateDb.IsEnabled = false;
             btnConnect.IsEnabled = false;
 
-            cs = $"Data Source={cBoxServer.Text};Initial Catalog=master;User ID={tBoxLogin.Text};Password={tBoxPassword.Text}";
+            cs = $"Data Source={cBoxServer.Text};Initial Catalog=FlexClub;Integrated Security=True;TrustServerCertificate=True;";
 
             try
             {
@@ -78,6 +78,7 @@ namespace WpfApp1
                     {
                         labelError.Foreground = Brushes.Green;
                         labelError.Text = "База данных найдена ✔";
+                        App.ConnectionString = cs;
 
                         btnConnect.IsEnabled = true;
                         btnCreateDb.IsEnabled = false;
@@ -235,52 +236,34 @@ namespace WpfApp1
                 settings = new UserSettings();
             }
 
-            SettingsService.Save(settings);
-
             string login = tBoxLogin.Text;
             string password = tBoxPassword.Text;
 
-            cs = $"Data Source={cBoxServer.Text};Initial Catalog=FlexClub;User ID={login};Password={password};TrustServerCertificate=True;";
-            App.ConnectionString = cs;
+            string hashedPassword = PasswordHelper.HashPassword(password);
 
-            try
+            using (SqlConnection db = new SqlConnection(App.ConnectionString))
             {
-                using (SqlConnection db = new SqlConnection(App.ConnectionString))
+                db.Open();
+
+                SqlCommand cmd = new SqlCommand(
+                    "SELECT COUNT(*) FROM Employees WHERE Login=@login AND Password=@password", db);
+
+                cmd.Parameters.AddWithValue("@login", login);
+                cmd.Parameters.AddWithValue("@password", hashedPassword);
+
+                int count = (int)cmd.ExecuteScalar();
+
+                if (count == 1)
                 {
-                    db.Open();
-
-                    SqlCommand cmd = new SqlCommand(
-                        "SELECT COUNT(*) FROM Employees WHERE Login=@login AND Password=@password", db);
-
-                    cmd.Parameters.AddWithValue("@login", login);
-                    cmd.Parameters.AddWithValue("@password", password);
-
-                    int count = (int)cmd.ExecuteScalar();
-
-                    if (count == 1)
-                    {
-                        MessageBox.Show("Успешный вход!");
-                        App.CurrentUserLogin = login;
-
-                        FormMain main = new FormMain();
-                        main.Show();
-                        Close();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Неверный логин или пароль");
-                    }
+                    FormMain main = new FormMain();
+                    main.Show();
+                    Close();
+                }
+                else
+                {
+                    MessageBox.Show("Неверный логин или пароль");
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-            cs = cs.Replace("master", "FlexClub");
-            App.ConnectionString = cs;
-
-            new FormMain().Show();
         }
     }
 }

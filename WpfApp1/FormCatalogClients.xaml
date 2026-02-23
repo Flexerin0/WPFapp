@@ -25,7 +25,7 @@
         <TextBox x:Name="tBoxDescription" HorizontalAlignment="Left" Margin="366,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="426" Background="#FF68ADFF" Height="169"/>
         <Button Click="BtnSave_Click" Content="Применить" HorizontalAlignment="Left" Margin="10,399,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
         <Button Click="BtnExit_Click" Content="Выход" HorizontalAlignment="Left" Margin="605,399,0,0" VerticalAlignment="Top" Height="30" Width="200" Background="#FF7A82F6" FontSize="18" FontWeight="Bold"/>
-        <ListBox DisplayMemberPath="Name" x:Name="ListBoxClients" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,227,10,45" Background="#FF68ADFF" SelectionChanged="ListBoxClients_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+        <ListBox DisplayMemberPath="FullName" x:Name="ListBoxClients" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,227,10,45" Background="#FF68ADFF" SelectionChanged="ListBoxClients_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
         <Label Content="Дата регистрации" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Label Content="Бонусные баллы" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <TextBox x:Name="tBoxBonusPoints" HorizontalAlignment="Left" Margin="160,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Background="#FF68ADFF" Height="20"/>
