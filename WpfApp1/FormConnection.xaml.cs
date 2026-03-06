@@ -37,7 +37,7 @@ namespace WpfApp1
                 cBoxRememberMe.IsChecked = true;
             }
 
-            cBoxServer.Items.Add(@".\SQLEXPRESS");
+            //cBoxServer.Items.Add(@".\SQLEXPRESS");
             cBoxServer.Items.Add(@"(localdb)\MSSQLLocalDB");
             cBoxServer.SelectedIndex = 0;
         }

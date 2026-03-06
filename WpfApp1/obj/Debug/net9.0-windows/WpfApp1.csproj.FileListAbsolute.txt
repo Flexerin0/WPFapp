@@ -74,3 +74,7 @@ D:\ПОСЛЕДНИЙ СЕМЕСТР\Технология разработки �
 D:\ПОСЛЕДНИЙ СЕМЕСТР\Технология разработки и защиты баз данных\WpfApp1\WpfApp1\obj\Debug\net9.0-windows\FormCatalogSuppliers.baml
 D:\ПОСЛЕДНИЙ СЕМЕСТР\Технология разработки и защиты баз данных\WpfApp1\WpfApp1\obj\Debug\net9.0-windows\FormCatalogClients.g.cs
 D:\ПОСЛЕДНИЙ СЕМЕСТР\Технология разработки и защиты баз данных\WpfApp1\WpfApp1\obj\Debug\net9.0-windows\FormCatalogClients.baml
+D:\ПОСЛЕДНИЙ СЕМЕСТР\Технология разработки и защиты баз данных\WpfApp1\WpfApp1\obj\Debug\net9.0-windows\FormDatabaseBackup.g.cs
+D:\ПОСЛЕДНИЙ СЕМЕСТР\Технология разработки и защиты баз данных\WpfApp1\WpfApp1\obj\Debug\net9.0-windows\FormStockReport.g.cs
+D:\ПОСЛЕДНИЙ СЕМЕСТР\Технология разработки и защиты баз данных\WpfApp1\WpfApp1\obj\Debug\net9.0-windows\FormDatabaseBackup.baml
+D:\ПОСЛЕДНИЙ СЕМЕСТР\Технология разработки и защиты баз данных\WpfApp1\WpfApp1\obj\Debug\net9.0-windows\FormStockReport.baml

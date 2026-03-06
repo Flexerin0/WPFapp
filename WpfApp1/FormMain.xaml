@@ -13,6 +13,14 @@
                 Width="70"
                 Height="20"
                 Click="BtnExit_Click" Canvas.Left="800" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+            <Button Content="Отчёты"
+                Width="70"
+                Height="20"
+                Click="BtnReports_Click" Canvas.Left="725" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button Content="Бэкапы"
+                Width="70"
+                Height="20"
+                Click="BtnBackup_Click" Canvas.Left="650" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Canvas>
         <ComboBox x:Name="cbDirectories" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="20" SelectionChanged="Directories_SelectionChanged">
             <ComboBoxItem Content="Сотрудники"/>

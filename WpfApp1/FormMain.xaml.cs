@@ -353,5 +353,15 @@ namespace WpfApp1
                 cbSaleProduct_SelectionChanged(null, null);
             }
         }
+
+        private void BtnReports_Click(object sender, RoutedEventArgs e)
+        {
+            new FormStockReport().Show();
+        }
+
+        private void BtnBackup_Click(object sender, RoutedEventArgs e)
+        {
+            new FormDatabaseBackup().Show();
+        }
     }
 }
