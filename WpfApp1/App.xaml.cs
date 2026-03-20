@@ -11,6 +11,7 @@ namespace WpfApp1
     {
         public static string ConnectionString;
         public static string CurrentUserLogin;
+        public static string CurrentRole;
     }
 
 }

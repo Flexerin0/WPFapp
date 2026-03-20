@@ -13,11 +13,11 @@
                 Width="70"
                 Height="20"
                 Click="BtnExit_Click" Canvas.Left="800" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-            <Button Content="Отчёты"
+            <Button x:Name="btnReports" Content="Отчёты"
                 Width="70"
                 Height="20"
                 Click="BtnReports_Click" Canvas.Left="725" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <Button Content="Бэкапы"
+            <Button x:Name="btnBackup" Content="Бэкапы"
                 Width="70"
                 Height="20"
                 Click="BtnBackup_Click" Canvas.Left="650" HorizontalAlignment="Left" VerticalAlignment="Center"/>

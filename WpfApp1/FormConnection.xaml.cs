@@ -24,9 +24,15 @@ namespace WpfApp1
         private string cs = "";
         private UserSettings settings;
 
+
+
         public FormConnection()
         {
             InitializeComponent();
+
+            cbRole.SelectedIndex = 0;
+
+
 
             settings = SettingsService.Load();
 
@@ -238,7 +244,6 @@ namespace WpfApp1
 
             string login = tBoxLogin.Text;
             string password = tBoxPassword.Text;
-
             string hashedPassword = PasswordHelper.HashPassword(password);
 
             using (SqlConnection db = new SqlConnection(App.ConnectionString))
@@ -255,6 +260,30 @@ namespace WpfApp1
 
                 if (count == 1)
                 {
+                    // 🎯 Получаем выбранную роль
+                    string role = ((ComboBoxItem)cbRole.SelectedItem).Content.ToString();
+
+                    App.CurrentRole = role;
+
+                    // 🎯 Формируем НОВУЮ строку подключения
+                    string newConnectionString = "";
+
+                    if (role == "Seller")
+                    {
+                        newConnectionString = $"Data Source={cBoxServer.Text};Initial Catalog=FlexClub;User Id=Seller;Password=123;TrustServerCertificate=True;";
+                    }
+                    else if (role == "Manager")
+                    {
+                        newConnectionString = $"Data Source={cBoxServer.Text};Initial Catalog=FlexClub;User Id=Manager;Password=123;TrustServerCertificate=True;";
+                    }
+                    else if (role == "Admin")
+                    {
+                        newConnectionString = $"Data Source={cBoxServer.Text};Initial Catalog=FlexClub;User Id=sa;Password=1234;TrustServerCertificate=True;";
+                    }
+
+                    // 💥 Вот ключевой момент
+                    App.ConnectionString = newConnectionString;
+
                     FormMain main = new FormMain();
                     main.Show();
                     Close();

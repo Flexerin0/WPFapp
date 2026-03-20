@@ -94,6 +94,11 @@
             Margin="200,310,0,0"
             VerticalAlignment="Top"
             Click="BtnExit_Click"/>
+        <ComboBox x:Name="cbRole" Margin="151,227,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Seller"/>
+            <ComboBoxItem Content="Manager"/>
+            <ComboBoxItem Content="Admin"/>
+        </ComboBox>
 
     </Grid>
 </Window>

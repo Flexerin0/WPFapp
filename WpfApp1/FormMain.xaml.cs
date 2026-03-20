@@ -31,6 +31,7 @@ namespace WpfApp1
             LoadClients(cbSaleClient);
             LoadProducts(cbReceiptProduct);
             LoadSuppliers(cbReceiptSupplier);
+            ApplyRoleAccess();
         }
 
         private void LoadProducts(ComboBox comboBox)
@@ -273,7 +274,8 @@ namespace WpfApp1
 
         private void BtnExit_Click(object sender, RoutedEventArgs e)
         {
-            Application.Current.Shutdown();
+            new FormConnection().Show();
+            this.Close();
         }
 
         private void btnAddSale_Click(object sender, RoutedEventArgs e)
@@ -362,6 +364,61 @@ namespace WpfApp1
         private void BtnBackup_Click(object sender, RoutedEventArgs e)
         {
             new FormDatabaseBackup().Show();
+        }
+
+        private void ApplyRoleAccess()
+        {
+            string role = App.CurrentRole;
+
+            // 🔁 сбрасываем выбор
+            cbDirectories.SelectedIndex = -1;
+
+            // 👇 работаем с пунктами ComboBox
+            var items = cbDirectories.Items.Cast<ComboBoxItem>().ToList();
+
+            if (role == "Seller")
+            {
+                // ❌ убираем ВСЕ справочники
+                foreach (var item in items)
+                    cbDirectories.Items.Remove(item);
+
+                // ❌ отключаем всё лишнее
+                btnReports.Visibility = Visibility.Collapsed;
+                btnBackup.Visibility = Visibility.Collapsed;
+
+                // ❌ запрещаем приход
+                btnAddReceipt.IsEnabled = false;
+
+                // ✅ остаётся только продажа (главный экран)
+                btnAddSale.IsEnabled = true;
+            }
+            else if (role == "Manager")
+            {
+                // ❌ убираем справочники (не нужны по ТЗ)
+                foreach (var item in items)
+                    cbDirectories.Items.Remove(item);
+
+                // ✅ только отчёты
+                btnReports.Visibility = Visibility.Visible;
+
+                // ❌ без бэкапов
+                btnBackup.Visibility = Visibility.Collapsed;
+
+                // ❌ нельзя изменять данные
+                btnAddReceipt.IsEnabled = false;
+                btnAddSale.IsEnabled = false;
+            }
+            else if (role == "Admin")
+            {
+                // 💥 полный доступ
+                btnReports.Visibility = Visibility.Visible;
+                btnBackup.Visibility = Visibility.Visible;
+
+                btnAddReceipt.IsEnabled = true;
+                btnAddSale.IsEnabled = true;
+
+                // ComboBox не трогаем — всё доступно
+            }
         }
     }
 }
